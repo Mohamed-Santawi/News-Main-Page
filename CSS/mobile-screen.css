@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.overlay-active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.list-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  transition: all ease 400ms;
+  display: block;
+}
+.list-overlay.active {
+  background-color: #fff;
+}
+.header {
+  margin-bottom: 1rem;
+}
+.list {
+  display: block;
+}
+.list {
+  display: none;
+  position: absolute;
+  right: 100px;
+  top: 110px;
+  z-index: 200;
+}
+.list.mob {
+  display: block;
+}
+.list ul {
+  display: block;
+}
+.list ul li {
+  padding: 0 0 1.5rem;
+}
+.list ul li a {
+  color: var(--Very-dark-blue);
+}
+.menu-list {
+  display: block;
+  cursor: pointer;
+  z-index: 100;
+  transition: all ease 400ms;
+}
+.content {
+  display: block;
+}
+.first-content {
+  padding: 0;
+  width: 100%;
+}
+.first-text-content {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.question {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.para-btn {
+  font-size: 0.77rem;
+  position: relative;
+  margin-left: 0;
+  right: 0;
+  width: 100%;
+  margin-top: 0.7rem;
+}
+.para {
+  margin-bottom: 1.3rem;
+}
+.btn {
+  width: 8rem;
+  margin-bottom: 1.5rem;
+}
+.btn button {
+  padding: 0.6rem;
+  font-size: 0.75rem;
+}
+.second-content {
+  width: 100%;
+  height: 26rem;
+}
+.text-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.row a {
+  font-size: 0.9rem;
+}
+.row p {
+  margin-top: 0.8rem;
+}
+.grid {
+  display: block;
+}
+.grid-col {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.grid-text {
+  margin-left: 1rem;
+  display: block;
+  width: 100%;
+}
+.grid-text span {
+  font-size: 1.2rem;
+}
+.grid-text a {
+  font-size: 0.8rem;
+  color: var(--Very-dark-blue);
+}
+.grid-text p {
+  font-size: 0.7rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+  line-height: 1.6;
+}
+.grid-image img {
+  width: 5rem;
+}
+.attribution {
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: -2rem 0 1rem;
+}

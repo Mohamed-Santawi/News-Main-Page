@@ -1,0 +1,204 @@
+/* Start Main Components */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+  --link-color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/* End Main Components */
+/* Start Main Page */
+.container {
+  padding: 2rem 6rem;
+  width: 100%;
+  height: auto;
+}
+.header {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  width: 3rem;
+}
+.list {
+  display: block;
+}
+.list ul {
+  display: flex;
+}
+.list ul li {
+  padding: 0 1rem 0;
+}
+.list ul li a {
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+}
+.list ul li a:hover {
+  transition: all ease 400ms;
+  color: var(--Soft-red);
+}
+.content {
+  display: flex;
+}
+.first-content {
+  padding-right: 1.5rem;
+  width: 100%;
+}
+.first-content .image img {
+  width: 100%;
+}
+.first-text-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 1rem;
+}
+.question {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.para-btn {
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  position: relative;
+  margin-left: 10rem;
+  right: -60px;
+  width: 90%;
+}
+.para {
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: var(--Soft-red);
+  width: 10rem;
+  text-align: center;
+}
+.btn button {
+  background-color: transparent;
+  color: var(--Off-white);
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: all ease 400ms;
+  background-color: var(--Very-dark-blue);
+}
+.second-content {
+  background-color: var(--Very-dark-blue);
+  color: var(--Off-white);
+  width: 30%;
+  height: 30rem;
+  padding: 1rem;
+}
+.text-content h4 {
+  font-size: 2rem;
+  color: var(--Soft-orange);
+  margin-bottom: 1.5rem;
+}
+.row {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.row:not(:last-child):after {
+  position: absolute;
+  content: "";
+  border: 1px solid hsla(0, 0%, 55%, 0.3);
+  width: 100%;
+  bottom: -30px;
+  left: 0;
+}
+.row a {
+  color: #fff;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.row a:hover {
+  transition: all ease 400ms;
+  color: var(--Soft-orange);
+}
+.row p {
+  color: var(--Grayish-blue);
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 2rem;
+}
+.grid-col {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-text {
+  margin-left: 1rem;
+  display: block;
+  width: 100%;
+}
+.grid-text span {
+  color: var(--Grayish-blue);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.grid-text a {
+  display: block;
+  font-weight: 900;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: var(--Very-dark-blue);
+}
+.grid-text a:hover {
+  transition: all ease 400ms;
+  color: var(--Soft-red);
+}
+.grid-text p {
+  font-size: 0.9rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+  line-height: 1.6;
+}
+.grid-image img {
+  width: 6rem;
+}
+.attribution {
+  padding: 0 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 2rem;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+/* End Main Page */
+/* Control Mobile Screen */
+.menu-list {
+  display: none;
+}
